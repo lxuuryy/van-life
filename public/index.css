@@ -1,0 +1,102 @@
+body{
+  margin:0;
+  background: linear-gradient(#8f7d7c,#dbc9c8)
+
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(#8f7d7c,#dbc9c8 ) ;
+  border-radius: 5px;
+
+}
+
+
+.header--bar{
+  text-decoration: none;
+  padding: 25px;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Mulish', sans-serif;
+  color: #8f261e
+
+
+  
+
+}
+
+.nav--bar{
+  text-decoration: none;
+  padding: 20px;
+
+  color: #8f261e;
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+
+
+}
+
+.pic-size{
+  width: 100%;
+  height: auto;
+}
+
+.content{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.titles{
+
+  
+  position: absolute;
+  width: 500px;
+  height: 500px;
+
+
+
+}
+
+.first--header{
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  padding: 10px;
+}
+
+.second--header{
+  color: white;
+  font-size: 15px;
+  font-family: 'Mulish', sans-serif;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.third--header{
+  border: 2px solid orange;
+  width: 130px;
+  padding: 20px;
+  margin-left: 300px;
+  margin-top: 85px;
+  padding-left: 25px;
+  padding-right: 15px;
+  border-radius: 5px;
+  background-color: orange;
+  color: black;
+  font-family: 'Mulish', sans-serif;
+  
+}
+
+.nav--bar a::after {
+  content: "";
+  position: absolute;
+  background-color: #8f261e;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+}
+
